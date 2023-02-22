@@ -1,5 +1,76 @@
-.mainPageImageContainer{
-    height: 100vh;
-    width: 100vw;
-    background: url(/src/images/Rectangle\ 48.png) no-repeat;
+.mainPageContainer {
+  height: 100vh;
+  width: 100vw;
+  background: url(/src/images/Rectangle48.png) no-repeat;
+  background-size: 100vw 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainPageTextContainer {
+  width: 70vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.foodAppText {
+  color: #f7f7f7;
+  letter-spacing: 0.1px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+.quoteContainer {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  color: #ffffff;
+  display: flex;
+  text-align: center;
+  margin-top: 17px;
+  margin-bottom: 20px;
+}
+.downloadApp {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 38px;
+  text-align: center;
+  letter-spacing: 0.2px;
+  color: #f7f7f7;
+  margin-top: 7px;
+}
+.DownloadButtons{
+    display: flex;
+    flex-direction: row;
+    gap: 36px;
+}
+.playStore{
+width: 236px;
+height: 68px;
+background: #FA4A0C;
+box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+border-radius: 2rem;
+border: none;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #FFFFFF;
+}
+.appStore{
+    width: 236px;
+height: 68px;
+border: 1px solid #FFFFFF;
+border-radius: 2rem;
+background-color: transparent;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+color: #FFFFFF;
 }

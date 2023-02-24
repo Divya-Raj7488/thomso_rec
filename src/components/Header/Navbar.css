@@ -1,33 +1,8 @@
-.navbarContainer {
-  width: 100vw;
-  height: 156px;
-  display: flex;
-  flex-direction: row;
-}
-.navbarIcon {
-  width: 50vw;
-  height: 156px;
-  background: url(/src/images/Bella\ Olonje\ logo\ 111\ 1.png) no-repeat;
-}
-.navbarListItems {
-  width: 50vw;
-  height: 156px;
-  display: flex;
-  align-items: center;
-}
-.navbarListItemsUl {
-  width: 50vw;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  list-style: none;
-}
-.navbarListItemsUl li {
-  font-size: 1rem;
+#navbarContent ul li {
+  width: 3rem;
+  height: 28px;
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 600;
-}
-.navbarListItemsUl li:hover{
-    color: #FA4A0C;
+  font-size: 1rem;
 }

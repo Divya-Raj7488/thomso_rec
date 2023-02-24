@@ -1,5 +1,6 @@
 .mainPageContainer {
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   width: 100vw;
   background: url(/src/images/Rectangle48.png) no-repeat;
   background-size: 100vw 100vh;
@@ -20,13 +21,13 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
+  font-size: 1.5rem;
 }
 .quoteContainer {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
-  font-size: 58px;
+  font-size: 3.5rem;
   color: #ffffff;
   display: flex;
   text-align: center;
@@ -37,40 +38,46 @@
   font-family: "Montserrat";
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 38px;
   text-align: center;
   letter-spacing: 0.2px;
   color: #f7f7f7;
   margin-top: 7px;
 }
-.DownloadButtons{
-    display: flex;
-    flex-direction: row;
-    gap: 36px;
+.downloadButtons {
+  display: flex;
+  flex-direction: row;
+  gap: 2.25rem;
 }
-.playStore{
-width: 236px;
-height: 68px;
-background: #FA4A0C;
-box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
-border-radius: 2rem;
-border: none;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-color: #FFFFFF;
+.downloadBtn1 {
+  width: 14rem;
+  height: 4rem;
+  border-radius: 2rem;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1.5rem;
+  color: #ffffff;
 }
-.appStore{
-    width: 236px;
-height: 68px;
-border: 1px solid #FFFFFF;
-border-radius: 2rem;
-background-color: transparent;
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 700;
-font-size: 24px;
-color: #FFFFFF;
+#playStoreBtn {
+  background: #fa4a0c;
+  box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+  border: none;
+}
+#appStoreBtn {
+  border: 1px solid #ffffff;
+  background-color: transparent;
+}
+
+#mainPgImg2{
+  margin-top: -10%;
+  border-bottom: 3px solid #E4E4E4;
+}
+#bellaOnjieLogin{
+  width: 100vw;
+  height: 100vh;
+}
+#bellaOnjieLoginInfo{
+width: 39vw;
 }

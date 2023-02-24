@@ -11,7 +11,8 @@
 }
 .mainPageTextContainer {
   width: 70vw;
-  height: 70vh;
+  min-height: 70vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -73,7 +74,7 @@
 }
 
 #mainPgImg2{
-  margin-top: -5%;
+  margin-top: -10%;
   border-bottom: 3px solid #E4E4E4;
 }
 #bellaOnjieLogin{

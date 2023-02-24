@@ -20,7 +20,7 @@ const Mainpage = () => {
         <button className="downloadBtn1" id="playStoreBtn">playstore</button>
         <button className="downloadBtn1" id="appStoreBtn">app Store</button>
       </div>
-      <div class="d-flex justify-content-center align-items-start" id="mainPgImg2">
+      <div class="d-flex align-items-start" id="mainPgImg2">
       <img src={SecondImage} alt="" />
     </div>
     </div>
@@ -60,8 +60,6 @@ const Mainpage = () => {
       delivered with ease."
       />
     </div>
-
-
     </>
   );
 };

@@ -7,7 +7,7 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
-    <div>
+    <div class="w-100">
       <div className="bellaOlonjeFooterImg">
         <h2 class="text-white">Download the app now.</h2>
         <h4 class="text-white d-flex flex-wrap justify-content-center align-items-center">

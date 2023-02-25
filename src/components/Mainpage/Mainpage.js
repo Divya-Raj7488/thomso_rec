@@ -28,16 +28,27 @@ const Mainpage = () => {
             app Store
           </button>
         </div>
-        <div class="d-flex align-items-start" id="mainPgImg2">
-          <img src={SecondImage} alt="" id="desktopViewImg" />
-          <img src={SecondImg} alt="" id="mobileViewImg" />
+        <div class="d-flex flex-column justify-content-center align-items-center" id="mainPgImg2">
+          <img
+            src={SecondImage}
+            alt="Food for everyone quote"
+            id="desktopViewImg"
+          />
+          <img
+            src={SecondImg}
+            alt="Food for everyone quote"
+            id="mobileViewImg"
+          />
+          <div className="bellaOnjieWorking">How the app works</div>
         </div>
+        
       </div>
+
       <div
         class="d-flex flex-wrap-reverse justify-content-evenly"
         id="bellaOnjieLogin"
       >
-        <ImageCard url={loginImg} />
+        <ImageCard url={loginImg} alt="login options" />
         <InfoCard
           Heading="Create an Account"
           SubHeading="Create/login to an existing
@@ -57,13 +68,13 @@ const Mainpage = () => {
           Description="Shop for your favorite meals or drinks
       and enjoy while doing it."
         />
-        <ImageCard url={FoodMenuImg} />
+        <ImageCard url={FoodMenuImg} alt="Food menu" />
       </div>
       <div
         class="d-flex flex-wrap-reverse justify-content-evenly"
         id="bellaOnjieLogin"
       >
-        <ImageCard url={PaymentImg} />
+        <ImageCard url={PaymentImg} alt="payment options" />
         <InfoCard
           Heading="Checkout"
           SubHeading="When you done check out

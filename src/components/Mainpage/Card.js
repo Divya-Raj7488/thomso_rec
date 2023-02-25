@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Mainpage.css"
-
 const ImageCard = (props) => {
-  return (
-      <img src={props.url} alt="" />
+  return(
+    <img src={props.url} alt="" />
   )
 }
+
 const InfoCard = (props) => {
     return (
         <div class="d-flex flex-column justify-content-center" id="bellaOnjieLoginInfo">
@@ -16,4 +16,5 @@ const InfoCard = (props) => {
     )
   }
 
-export {InfoCard,ImageCard}
+
+export {ImageCard, InfoCard}

@@ -10,7 +10,7 @@ const Footer = () => {
     <div>
       <div className="bellaOlonjeFooterImg">
         <h2 class="text-white">Download the app now.</h2>
-        <h4 class="text-white">
+        <h4 class="text-white d-flex flex-wrap justify-content-center align-items-center">
           Available on your favorite store. Start your premium experience now
         </h4>
         <div className="footerBtns">
@@ -26,7 +26,7 @@ const Footer = () => {
         </div>
       </div>
       <div class="container d-flex flex-row align-items-center justify-content-evenly" id="footerNavbar">
-        <img src={logo} alt="" />
+        <img src={logo} alt="" className="footerLogoImg"/>
         <div class="d-flex flex-row" id="socialMedia">
             <a href="/"><img src={twitterImg} width={40} height={40} alt="" /></a>
             <a href="/"><img src={facebookImg} width={40} height={40} alt="" /></a>

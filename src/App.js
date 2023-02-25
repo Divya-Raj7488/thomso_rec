@@ -6,7 +6,7 @@ import Mainpage from './components/Mainpage/Mainpage';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Navbar />
       <Mainpage />
       <Footer />

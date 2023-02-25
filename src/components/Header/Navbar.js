@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../images/BellaOlonjelogo.png";
+import mobileLogoImg from "../../images/logomobile.png"
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -12,7 +13,16 @@ const Navbar = () => {
             height={101}
             width={256}
             alt="Bella-Olonjelogo Logo"
+            id="desktopLogo"
           />
+          <img
+            src={mobileLogoImg}
+            height={51}
+            width={104}
+            alt="Bella-Olonjelogo Logo"
+            id="mobileLogo"
+          />
+
         </div>
         <div class="container-fluid w-50 d-flex justify-content-end">
           <button

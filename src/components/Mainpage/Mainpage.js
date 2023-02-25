@@ -2,10 +2,10 @@ import React from "react";
 import "./Mainpage.css";
 import SecondImage from "../../images/Group53.png";
 import loginImg from "../../images/login.png";
-import {ImageCard, InfoCard} from "./Card";
+import { ImageCard, InfoCard } from "./Card";
 import FoodMenuImg from "../../images/FoodMenu.png";
 import SecondImg from "../../images/Group54Mobile.png";
-import PaymentImg from "../../images/Payment.png"
+import PaymentImg from "../../images/Payment.png";
 
 const Mainpage = () => {
   return (
@@ -37,10 +37,7 @@ const Mainpage = () => {
         class="d-flex flex-wrap-reverse justify-content-evenly"
         id="bellaOnjieLogin"
       >
-        <ImageCard 
-        url={loginImg}
-        />
-        {/* <div className="ImageCard" id="ImageCard1"></div> */}
+        <ImageCard url={loginImg} />
         <InfoCard
           Heading="Create an Account"
           SubHeading="Create/login to an existing
@@ -60,19 +57,13 @@ const Mainpage = () => {
           Description="Shop for your favorite meals or drinks
       and enjoy while doing it."
         />
-        <ImageCard 
-        url={FoodMenuImg}
-        />
-        {/* <div className="ImageCard" id="ImageCard2"></div> */}
+        <ImageCard url={FoodMenuImg} />
       </div>
       <div
         class="d-flex flex-wrap-reverse justify-content-evenly"
         id="bellaOnjieLogin"
       >
-        {/* <div className="ImageCard" id="ImageCard3"></div> */}
-        <ImageCard 
-        url={PaymentImg}
-        />
+        <ImageCard url={PaymentImg} />
         <InfoCard
           Heading="Checkout"
           SubHeading="When you done check out

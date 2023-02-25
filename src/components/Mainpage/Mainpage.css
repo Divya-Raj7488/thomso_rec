@@ -88,25 +88,6 @@ width: 39vw;
 #mobileViewImg{
   display: none;
 }
-/* .ImageCard{
-  height: 90vh;
-  width: 40vw;
-} */
-/* #ImageCard1{
-  background-image: url(/src/images/login.png);
-  background-size: 40vw 90vh;
-  background-repeat: no-repeat;
-}
-#ImageCard2{
-  background-image: url(/src/images/FoodMenu.png);
-  background-size: 40vw 90vh;
-  background-repeat: no-repeat;
-}
-#ImageCard3{
-  background-image: url(/src/images/Payment.png);
-  background-size: 40vw 90vh;
-  background-repeat: no-repeat;
-} */
 
 @media screen and (max-width: 767px) {
   .mainPageContainer{

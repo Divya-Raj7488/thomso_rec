@@ -6,3 +6,15 @@
   font-weight: 600;
   font-size: 1rem;
 }
+#mobileLogo{
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  #desktopLogo{
+    display: none;
+  }
+  #mobileLogo{
+    margin: 10px;
+  }
+}

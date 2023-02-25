@@ -1,8 +1,3 @@
-@media screen and (max-width: 767px) {
-    .App{
-        width: 140vw;
-    } 
-}
 @media screen and (max-width: 400px) {
     .App{
         width: min-content;
